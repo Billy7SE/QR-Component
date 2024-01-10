@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+      width: 100vw;
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      /* max-width: 1440px; */
+      /* text-align: center; */
+   }
+   .content {
+      width: 70%;
+      margin: 21rem auto 20rem;
+      /* max-width: 575px; */
+      background-color: hsl(0, 0%, 100%);
+      text-align: center;
+      padding: 1.3rem;
+      border-radius: 10px;
+      min-width: 400px;
+      max-width: 400px;
+
+   }
+   .content img {
+      width: 100%;      
+      border-radius: 10px;
+      max-height: 400px;
+   }
+   .qr {
+      /* font-size: 0.5rem; */
+      /* font-weight: 700; */
+      margin: 0 auto 1rem;
+   }
+   .text {
+      width: 90%;
+      margin: 0 auto;
+      /* padding: 1rem; */
+   }
+   .hd-ing {
+      font-size: 1.7rem;
+      margin: 0 0 1rem;
+      letter-spacing: 0.01rem;
+      color: hsl(218, 44%, 22%);
+   }
+   .txt {
+      margin: 0 auto 1rem;
+      font-size: 1.2rem;
+      /* width: 94%; */
+      padding: 0.09rem;
+      color: hsl(220, 15%, 55%); 
+   }
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+   body {
+      width: 100%;
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+   }
+   .content {
+      width: 70%;
+      margin: 5rem auto 0;
+      max-width: 275px;
+      background-color: hsl(0, 0%, 100%);
+      text-align: center;
+      padding: 0.8rem;
+      border-radius: 8px;
+   }
+   .content img {
+      width: 100%;
+      border-radius: 8px;
+   }
+   .qr {
+      /* font-size: 0.5rem; */
+      /* font-weight: 700; */
+      margin: 0 auto 1rem;
+   }
+   .text {
+      width: 90%;
+      margin: 0 auto;
+      /* padding: 1rem; */
+   }
+   .hd-ing {
+      font-size: 1.1rem;
+      margin: 0 0 1rem;
+      letter-spacing: 0.01rem;
+      color: hsl(218, 44%, 22%);
+   }
+   .txt {
+      margin: 0 auto 1rem;
+      font-size: 0.74rem;
+      /* width: 94%; */
+      padding: 0.09rem;
+      color: hsl(220, 15%, 55%); 
+   }
+}

@@ -14,7 +14,7 @@ body {
    }
    .content {
       width: 70%;
-      margin: 21rem auto 20rem;
+      margin: 15rem auto 2rem;
       /* max-width: 575px; */
       background-color: hsl(0, 0%, 100%);
       text-align: center;
